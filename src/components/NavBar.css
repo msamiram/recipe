@@ -1,0 +1,16 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+.navbar{
+    padding: 30px 50px;
+}

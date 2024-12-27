@@ -1,0 +1,511 @@
+/* .home {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-image {
+    max-width: 40%;
+    border-radius: 10px;
+  }
+  
+  .cta-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e64a19;
+  }
+  
+  .info-section,
+  .articles-section,
+  .advice-section {
+    margin-bottom: 40px;
+  }
+  
+  .diet-cards,
+  .articles {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .diet-card,
+  .article-card {
+    background: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+  }
+  
+  .diet-card img,
+  .article-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .advice-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .advice-section li {
+    margin-bottom: 10px;
+  }
+   */
+
+   /* Home.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  button {
+    background-color: #286e22;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #98cd8e;
+  }
+  
+  /* Main Banner */
+  .main-banner {
+    position: relative;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: rgb(211, 232, 211);
+    border: none;
+    border-radius: 20px;
+    margin: 20px auto;
+
+  }
+  
+  .banner-image {
+    width: 50%;
+    height: 100%;
+    /* object-fit: cover; */
+    filter: brightness(70%);
+  }
+  
+  .banner-text {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap:20px;
+   align-items: center;
+   padding: 20px 50px;
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .banner-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #696c67;
+  }
+  
+  .cta-button {
+    padding: 12px 30px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+  }
+  .action-btns{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+  
+
+
+
+
+
+
+
+
+  
+/* Body Health Section */
+.body-health-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .body-health-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    color: #286e22;
+  }
+  
+  .body-health-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #5a5a5a;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  
+  .health-icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* max-width: 1000px; */
+  }
+  
+  .health-icons .icon {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .health-icons .icon img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .health-icons .icon p {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: #286e22;
+  }
+  
+  .health-icons .icon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+ /* Healthy Diet Section */
+.healthy-diet-section {
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2394026355/display_1500/stock-photo-stuffed-omelette-with-tomatoes-and-spinach-on-light-background-with-copy-space-top-view-flat-lay-2394026355.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .healthy-diet-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+  }
+  
+  .healthy-diet-section h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .healthy-diet-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #dcdcdc;
+  }
+  
+  .food-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .food-images .image {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+  }
+  
+  .food-images .image img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .food-images .image p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #286e22;
+  }
+  
+
+
+
+
+
+
+
+/* Exercise Section */
+.exercise-section {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .exercise-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    color: #286e22;
+  }
+  
+  .exercise-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #5a5a5a;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  
+  .exercise-categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .exercise-categories .category {
+    width: 250px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .exercise-categories .category h3 {
+    font-size: 1.6rem;
+    color: #286e22;
+  }
+  
+  .exercise-categories .category p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #696c67;
+  }
+  
+  .exercise-categories .category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* Most Popular Diets Section */
+.popular-diets-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .popular-diets-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    color: #286e22;
+  }
+  
+  .popular-diets-section p {
+    font-size: 1.2rem;
+    color: #5a5a5a;
+    margin-bottom: 40px;
+  }
+  
+  .diet-cards {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+  }
+  
+  .diet-card {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .diet-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .diet-card h3 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+    color: #286e22;
+  }
+  
+  .diet-card p {
+    font-size: 1rem;
+    color: #696c67;
+    margin-bottom: 15px;
+  }
+  
+  .diet-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .diet-cards::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  .diet-cards-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE and Edge */
+  }
+  
+  .diet-cards-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+  .diet-card {
+    flex: 0 0 300px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .scroll-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .scroll-btn {
+    background-color: #286e22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-btn:hover {
+    background-color: #98cd8e;
+  }
+  
+  
+  /* .cta-button {
+    background-color: #286e22;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  } */
+  
+
+
+
+
+
+ 
+  
+  
