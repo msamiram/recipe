@@ -172,15 +172,15 @@
 //                     <div className="exercise-categories">
 //                         <div className="category">
 //                             <h3>Strength Training</h3>
-//                             <p>Build muscle and improve endurance.</p>
+//                             <p>Build muscle and improve endurance</p>
 //                         </div>
 //                         <div className="category">
 //                             <h3>Cardio</h3>
-//                             <p>Boost your heart health and energy levels.</p>
+//                             <p>Boost your heart health and energy levels</p>
 //                         </div>
 //                         <div className="category">
 //                             <h3>Yoga & Stretching</h3>
-//                             <p>Improve flexibility and reduce stress.</p>
+//                             <p>Improve flexibility and reduce stress</p>
 //                         </div>
 //                     </div>
 //                 </div>
